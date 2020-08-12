@@ -10,8 +10,8 @@
     grid-gap:1.5rem;
     grid-template-rows: 20rem;
     grid-auto-rows: minmax(8rem,auto);
-
-    /* grid-auto-flow: column; */
+    
+    grid-auto-flow: row; 
     /* this is default */
     /* grid-auto-rows: 20rem; */
 
