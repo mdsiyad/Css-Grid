@@ -1,0 +1,4 @@
+grid-template-columns
+grid-template-rows: for adding rows
+grid-template-areas: for adding named columns and rows
+grid-area: for using templates areas
