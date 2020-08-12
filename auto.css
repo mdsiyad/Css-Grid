@@ -1,0 +1,32 @@
+.container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,15rem);
+    /* fills and fits as much column as first row wants */
+    /* grid-template-columns: repeat(auto-fill,10rem); */
+    /* grid-template-columns: repeat(auto-fit,10rem); */
+    
+    justify-content: center;
+    grid-gap:1.5rem;
+    grid-template-rows: 20rem;
+    grid-auto-rows: minmax(8rem,auto);
+
+    /* grid-auto-flow: column; */
+    /* this is default */
+    /* grid-auto-rows: 20rem; */
+
+/* grid-auto-columns: 5rem; */
+}
+
+.quote{
+    border: #ff4213;
+    background: #ff9f87;
+   
+}
+.quote-featured{
+    border: 1px solid #fa923f;
+    background: #ffbd87;
+    padding: 1rem;
+    border-radius: 5px;
+    grid-column: span 2;
+}
